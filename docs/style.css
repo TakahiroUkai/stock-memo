@@ -1,0 +1,18 @@
+:root{--bg:#f4f5f7;--s:#fff;--fg:#1c2330;--mu:#5b6575;--ln:#d9dee6;--ac:#1f4fb4;--acs:#e5ecfa}
+@media(prefers-color-scheme:dark){:root{--bg:#0f141c;--s:#171e29;--fg:#e6eaf1;--mu:#9aa4b5;--ln:#2a3342;--ac:#8fb0ff;--acs:#1d2a47}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.8 "Noto Sans JP",-apple-system,"Hiragino Sans",sans-serif;padding:0 16px 48px}
+.wrap{max-width:760px;margin:0 auto}header{padding:22px 0 8px}header a{color:inherit;text-decoration:none}
+h1{font-size:1.6rem;line-height:1.35;margin:0}.tag{color:var(--mu);font-size:.88rem;margin:4px 0 0}
+nav.links{font-size:.85rem;margin:10px 0}nav.links a{color:var(--ac);margin-right:14px}
+.list{background:var(--s);border:1px solid var(--ln);border-radius:10px;overflow:hidden}
+.list a{display:grid;grid-template-columns:6rem 1fr;gap:10px;padding:12px 14px;border-top:1px solid var(--ln);color:inherit;text-decoration:none}
+.list a:first-child{border-top:0}.list a:hover{background:var(--acs)}.list .d{color:var(--mu);font-size:.82rem}.list .t{color:var(--mu);font-size:.85rem;grid-column:2}
+article{background:var(--s);border:1px solid var(--ln);border-radius:10px;padding:18px 16px;margin-top:12px}
+article h2{font-size:1.4rem;line-height:1.4;margin:0 0 4px}article h3{font-size:1.1rem;margin:22px 0 8px;padding-top:14px;border-top:1px solid var(--ln)}
+.theme{color:var(--mu);margin:0 0 12px}.concl{background:var(--acs);border-radius:8px;padding:12px 14px;margin:12px 0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:1px;background:var(--ln);border:1px solid var(--ln);border-radius:8px;overflow:hidden;margin:12px 0}
+.stats div{background:var(--s);padding:8px 12px}.stats dt{font-size:.72rem;color:var(--mu);margin:0}.stats dd{margin:0;font-weight:700}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.88rem}th,td{border-bottom:1px solid var(--ln);padding:6px 8px;text-align:left;vertical-align:top}th{color:var(--mu);white-space:nowrap}
+.note,.src,.disc{font-size:.82rem;color:var(--mu)}.src a{color:var(--ac);overflow-wrap:anywhere}.disc{border-top:1px solid var(--ln);padding-top:12px;margin-top:18px}
+.ad{margin:18px 0;min-height:90px;border:1px dashed var(--ln);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--mu);font-size:.75rem}
+footer{margin-top:24px;font-size:.8rem;color:var(--mu)}footer a{color:var(--ac)}
